@@ -10,6 +10,10 @@
     transition: all .2s ease-in-out 0s;
 }
 
+.heading{
+    font-size: 4.5rem;
+}
+
 .min-font {
     font-size: 0;
 }
@@ -69,6 +73,7 @@
     font-size: 3rem;
     color: #5bc0de;
     outline: none;
+    border-style: solid;
 }
 
 .player2-name {
@@ -76,6 +81,7 @@
     font-size: 3rem;
     color: #5bc0de;
     outline: none;
+    border-style: solid;
 }
 
 .player {
@@ -92,7 +98,6 @@
 
 #player2 {
     margin-left: 50px;
-    display: none;
 }
 
 .player-turn {
