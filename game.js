@@ -109,7 +109,7 @@ function singlePlayer(user, comp) {
     $('.player1-name-div').attr('hidden', true)
     $('.player2-name-div').attr('hidden', true)
     $('.start-div').attr('hidden', true)
-    $('.name-field').attr('hidden', false)
+    $('.name-field').attr('hidden', true)
     $('.username').text(singlePlayerName)
     $('.char-selection-div').attr('hidden', true)
     $('.heading').removeClass('char-selection-spacing')
