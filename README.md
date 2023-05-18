@@ -1,2 +1,7 @@
 # TIC-TAC-TOE
-The classic Tic Tac Toe game. Multiplayer and Singleplayer is available.
+
+Specification : 
+  * Multiplayer and Singleplayer
+
+Instruction : 
+  * By the rule, player who choose 'X' goes first.
