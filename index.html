@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="heading col text-center h1 text-info mt-5">TIC TAC TOE</div>
+        </div>
+
+        <div class="row mode-selection" hidden>
+            <div class="mode-selection-div col text-center">
+                <div class="mode-selection-btn btn single" id="singlePlayer">Single Player</div>
+                <br>
+                <div class="mode-selection-btn btn multi mt-3" id="multiPlayer">Multi player</div>
+            </div>
+        </div>
+
+        <div class="row player1-name-div username-div" hidden>
+            <div class="col">
+                <label for="player1" class="player text-danger">PLAYER 1 (X)</label>
+                <br>
+                <input type="text" class="username-entry player1-name bg-dark border-warning rounded h-75 w-25" name="player1">
+            </div>
+        </div>
+        <br>
+        <div class="row player2-name-div" hidden>
+            <div class="col">
+                <label for="player2" class="player text-danger">PLAYER 2 (O)</label>
+                <br>
+                <input type="text" class="player2-name bg-dark border-warning rounded h-75 w-25" name="player2">
+            </div>
+        </div>
+
+        <div class="row char-selection-div" hidden>
+            <div class="col text-center">
+                <div class="char-selection btn text-center" id="X" aria-placeholder="O">X</div>
+                <div class="char-selection btn text-center" id="O" aria-placeholder="X">O</div>
+            </div>
+        </div>
+
+        <div class="row start-div text-center" hidden>
+            <div class="col">
+                <div class="start-btn btn btn-warning mt-5 w-25">START GAME</div>
+            </div>
+        </div>
+
+        <div class="row game-field" hidden>
+            <div class="col text-center mt-5">
+                <div id="col1" class="click-area min-font btn text-warning btn-1 bg-dark btn-danger rounded text-center">1</div>
+                <div id="col2" class="click-area min-font btn text-warning bg-dark btn-danger rounded text-center">2</div>
+                <div id="col3" class="click-area min-font btn text-warning bg-dark btn-danger rounded text-center">3</div>
+                <br>
+                <div id="col4" class="click-area min-font btn text-warning bg-dark btn-danger rounded text-center">4</div>
+                <div id="col5" class="click-area min-font btn text-warning bg-dark btn-danger rounded text-center">5</div>
+                <div id="col6" class="click-area min-font btn text-warning bg-dark btn-danger rounded text-center">6</div>
+                <br>
+                <div id="col7" class="click-area min-font btn text-warning bg-dark btn-danger rounded text-center">7</div>
+                <div id="col8" class="click-area min-font btn text-warning bg-dark btn-danger rounded text-center">8</div>
+                <div id="col9" class="click-area min-font btn text-warning bg-dark btn-danger rounded text-center">9</div>
+            </div>
+        </div>
+
+        <div class="row name-field" hidden>
+            <div class="col mw-100 mt-5 text-center">
+                <div class="username player-name h3 text-danger mt-2 text-center" id="player1">PLAYER 1</div>
+                <div class="player-name h3 player-turn mt-2 text-center" id="player2" hidden>PLAYER 2</div>
+            </div>
+        </div>
+
+        <div class="row play-again-btn text-center" hidden>
+            <div class="col">
+                <div class="play-again btn btn-danger" onclick="history.go(0)">PLAY AGAIN</div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>

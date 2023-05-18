@@ -1,0 +1,147 @@
+.click-area {
+    height: 100px;
+    width: 100px;
+    margin-top: 4px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5bc0de;
+    font-size: 4rem;
+    outline: none;
+    transition: all .2s ease-in-out 0s;
+}
+
+.min-font {
+    font-size: 0;
+}
+
+.mode-selection-div {
+    margin-top: 130px;
+}
+
+.mode-selection-btn {
+    width: 250px;
+    margin-top: 4px;
+    border-style: solid;
+    background-color: #212529;
+    border-color: #d9534f;
+    color: #f0ad4e;
+    border-width: 2px;
+    font-size: 2rem;
+    outline: none;
+    transition: all .2s ease-in-out 0s;
+}
+
+.mode-selection-btn:hover {
+    background-color: #f0ad4e;
+    color: #d9534f;
+}
+
+.won {
+    transition: all .4s ease-in-out 0s;
+    font-size: 5rem;
+    color: #5bc0de;
+}
+
+.lose {
+    transition: all .4s ease-in-out 0s;
+    font-size: 5rem;
+    color: #d9534f;
+}
+
+.tie {
+    transition: all .4s ease-in-out 0s;
+    font-size: 5rem;
+    color: #f0ad4e;
+}
+
+.player1-name-div {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.player2-name-div {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.player1-name {
+    text-align: center;
+    font-size: 3rem;
+    color: #5bc0de;
+    outline: none;
+}
+
+.player2-name {
+    text-align: center;
+    font-size: 3rem;
+    color: #5bc0de;
+    outline: none;
+}
+
+.player {
+    font-size: 2rem;
+}
+
+.start-div {
+    font-size: 1rem;
+}
+
+.player-name {
+    display: inline-block;
+}
+
+#player2 {
+    margin-left: 50px;
+    display: none;
+}
+
+.player-turn {
+    color: #5f3c3b;
+}
+
+.disable-div {
+    pointer-events: none;
+}
+
+.char-selection {
+    height: 80px;
+    width: 80px;
+    font-size: 3rem;
+    outline: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5bc0de;
+    color: #f0ad4e;
+    background-color: #212529;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.char-selection:hover {
+    background-color: #f0ad4e;
+    color: #5bc0de;
+}
+
+.char-selection-spacing {
+    padding-top: 140px;
+    font-size: 4rem;
+}
+
+.play-again{
+    margin-right: 10px;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #d9534f;
+    z-index: 10;
+    position: relative;
+}
+
+
+.play-again:hover{
+    background-color: #d9534f;
+    color: #212529;
+}
+
+.play-again-btn{
+    margin-top: -200px;
+}
