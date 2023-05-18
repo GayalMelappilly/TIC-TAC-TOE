@@ -1,7 +1,7 @@
 # TIC-TAC-TOE
 
 Specification : 
-  * Multiplayer and Singleplayer
+  * Multiplayer and Singleplayer.
 
 Instruction : 
   * By the rule, player who choose 'X' goes first.
