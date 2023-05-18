@@ -69,7 +69,6 @@ function multiPlayer() {
     $('.player2-name-div').attr('hidden', true)
     $('.start-div').attr('hidden', true)
     $('.name-field').attr('hidden', false)
-    $('#player2').attr('hidden', false)
     $('#player1').text(player1)
     $('#player2').text(player2)
 
